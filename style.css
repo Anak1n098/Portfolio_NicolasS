@@ -62,7 +62,7 @@ header {
 }
 
 #home {
-    background-image: url(/portNICOLAS/imagens/cherry-blossom\ \(1\).gif);
+    background-image: url(portNICOLAS/imagens/cherry-blossom\ \(1\).gif);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -100,7 +100,7 @@ header {
 }
 
 #portfolio {
-    background-image: url(/portNICOLAS/imagens/underwater_shalow.gif);
+    background-image: url(portNICOLAS/imagens/underwater_shalow.gif);
     background-size: cover;
     width: 100%;
     height:100%;
@@ -212,7 +212,7 @@ header {
 
 
 #servicos {
-    background-image: url(/portNICOLAS/imagens/underwater_deep.gif);
+    background-image: url(portNICOLAS/imagens/underwater_deep.gif);
     background-size: cover;
     width: 100%;
     height:100%;
@@ -333,7 +333,7 @@ header {
 
 
 #contato {
-    background-image: url(/portNICOLAS/imagens/deepseafloor.jpg);
+    background-image: url(portNICOLAS/imagens/deepseafloor.jpg);
     background-size: cover;
     width: 100%;
     height:100%;

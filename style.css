@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Raleway", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 50px;
+    opacity: 0.5;
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: #d7d7d7;
+    border-radius: 50px; 
+    opacity: 0.2;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #949393; 
+  }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 0rem;
+    background: linear-gradient(rbga(0,0,0,0), rgba(0,0,0,0));
+    margin-top: 7px;
+    margin-bottom: 7px;
+    list-style: none;
+}
+
+
+.cabeçalho-link {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.logo {
+    height: 52px;
+    width: 52px;
+    border: 1px solid rgb(202, 76, 97);
+    border-radius: 50%;
+    display: inline-flex;
+}
+
+#home {
+    background-image: url(/portNICOLAS/imagens/cherry-blossom\ \(1\).gif);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.Hmain {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 200px 0 200px 0;
+    animation: fadein 1.3s ease-in;
+}
+
+        @keyframes fadein {
+            from {bottom: 65px; opacity: 0;}
+            to {bottom: 0px; opacity: 1;}
+        }
+
+
+.HRsection {
+    font-size: 40px;
+}
+
+.Hspan {
+    color: rgb(255, 255, 255);
+}
+
+.HRsection h3 {
+    color: rgb(255, 255, 255);
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+#portfolio {
+    background-image: url(/portNICOLAS/imagens/underwater_shalow.gif);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+
+.Ptexto {
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+.Pportfolio {
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.cover {
+    overflow: auto;
+    white-space: nowrap;
+    border: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;;
+  }
+
+.scroll-images {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+
+  }
+
+  .main1 {
+    display: flex;
+    padding: 100px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    margin: 100px;
+  }
+
+.main2 {
+    display: flex;
+    padding: 100px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    margin: 100px;
+}
+
+.main3 {
+    display: flex;
+    padding: 100px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    margin: 100px;
+}
+
+.main4 {
+    display: flex;
+    padding: 100px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    margin: 100px;
+}
+
+
+.Clt {
+    margin: 10px;;
+}
+
+.logoUVV {
+    border-radius: 50%;
+}
+
+.logoPROJ {
+    border-radius: 20%;
+    height: 80px;
+}
+
+.logoORA {
+    border-radius: 20%;
+    height: 80px;
+}
+
+.logoCIS {
+    border-radius: 55%;
+}
+
+.tPROJ {
+    font-size: 25px;
+}
+
+.tORA {
+    font-size: 25px;
+}
+
+.tCIS {
+    font-size: 25px;
+}
+
+
+
+#servicos {
+    background-image: url(/portNICOLAS/imagens/underwater_deep.gif);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    color: white;
+}
+
+.Stxt {
+    text-align: center;
+    padding: 35px;
+}
+
+.Sservicos {
+    font-size: 30px;
+}
+
+.mainS1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    margin: 35px;
+}
+
+.ms1t {
+    border: white;
+    border-style: solid;
+    padding: 20px;
+}
+
+.ms11 {
+    font-size: 50px;
+    color: pink;
+}
+
+.ms1f {
+    border: white;
+    border-style: solid;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sarte {
+    border-radius: 10%;
+}
+
+
+.mainS2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    margin: 35px;
+}
+
+.ms2t {
+    border: white;
+    border-style: solid;
+    padding: 20px;
+}
+
+.ms22 {
+    font-size: 50px;
+    color: pink;
+}
+
+.ms2f {
+    border: white;
+    border-style: solid;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Scode {
+    border-radius: 10%;
+}
+
+
+.mainS3 {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    margin: 35px;
+}
+
+.ms3t {
+    border: white;
+    border-style: solid;
+    padding: 20px;
+}
+
+.ms33 {
+    font-size: 50px;
+    color: pink;
+}
+
+.ms3f {
+    border: white;
+    border-style: solid;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbd {
+    border-radius: 10%;
+}
+
+.boxServicos {
+    display: block;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+
+#contato {
+    background-image: url(/portNICOLAS/imagens/deepseafloor.jpg);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    padding: 100px 0 100px 0;
+}
+
+
+.Ctext {
+    text-align: center;
+    color: white;
+}
+
+.Ccontato {
+    font-size: 30px;
+
+}
+
+.boxContato {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.mainC1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.mainC2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.msc1 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    height: 10px;
+}
+
+.msc2 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    height: 10px;
+}
+
+.msc3 {
+    padding: 10px;
+    margin: 10px;
+    height: 8px;
+}
+
+.msc4 {
+    padding: 10px;
+    margin: 10px;
+    height: 8px;
+}
+
+
+
+
+
+
+
+
+
+
